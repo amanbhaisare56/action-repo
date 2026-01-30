@@ -25,3 +25,33 @@ and displays them on a simple web dashboard.
 
 ## 📂 Project Structure
 
+webhook-repo/
+│
+├── app.py              # main app entry
+│
+├── db/
+│   └── mongo.py        # Mongo connection
+│
+├── models/
+│   └── event.py        # event schema builder
+│
+├── routes/
+│   ├── webhook.py      # POST /webhook
+│   └── events.py       # GET /events
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   └── script.js
+│
+├── schema_helper.py    # (we'll merge logic)
+└── requirements.txt
+
+---
+
+## ▶️ How to Run Locally
+
+### 1️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
