@@ -193,4 +193,4 @@ Backend Developer | Flask | MongoDB | GitHub Webhooks
 
 I built a Flask-based GitHub webhook listener that captures push events, normalizes the payload, stores it in MongoDB, and displays it on a live dashboard that auto-refreshes every 15 seconds.
 
-I made a change for video
+I made changes for the video.
